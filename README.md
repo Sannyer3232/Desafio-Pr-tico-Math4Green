@@ -42,56 +42,6 @@ Solução Full Stack para gerenciamento de sugestões e feedbacks, desenvolvida 
 * **Comunicação:** HttpClient com Interceptors (para envio de Token).
 * **Components:** Modal reutilizável e Toast Notification Service.
 
----
-
-## 🚀 Como Rodar o Projeto
-
-### Pré-requisitos
-* [.NET 9 SDK](https://dotnet.microsoft.com/download) instalado.
-* [Node.js](https://nodejs.org/) (LTS) instalado.
-* MySQL Server rodando.
-
-### 1️⃣ Configuração do Backend
-
-1.  Clone o repositório:
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git)
-    cd feedback-board/FeedbackAPI
-    ```
-
-2.  Configure o Banco de Dados:
-    Abra o arquivo `appsettings.json` e ajuste a **ConnectionStrings** com seu usuário e senha do MySQL.
-
-3.  Aplique as Migrations (Criação do Banco):
-    ```bash
-    dotnet ef database update
-    ```
-
-4.  Rode a API:
-    ```bash
-    dotnet run
-    ```
-    *A API estará rodando em: `http://localhost:5262`*
-    *Swagger disponível em: `http://localhost:5262/swagger`*
-
-### 2️⃣ Configuração do Frontend
-
-1.  Em outro terminal, entre na pasta do front:
-    ```bash
-    cd ../feedback-front
-    ```
-
-2.  Instale as dependências:
-    ```bash
-    npm install
-    ```
-
-3.  Rode o projeto:
-    ```bash
-    ng serve
-    ```
-
-4.  Acesse no navegador: `http://localhost:4200`
 
 ---
 
