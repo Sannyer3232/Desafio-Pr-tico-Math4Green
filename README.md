@@ -54,10 +54,4 @@ Solução Full Stack para gerenciamento de sugestões e feedbacks, desenvolvida 
 
 ---
 
-## 📸 Screenshots
-
-*(Espaço reservado para você colocar prints da tela de Login e do Board)*
-
----
-
-Desenvolvido por **[Seu Nome]** 🚀
+Desenvolvido por **Sannyer Cardoso Carvalho Nery** 🚀
